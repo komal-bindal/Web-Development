@@ -1,0 +1,42 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: burlywood;
+    margin: 20px;
+    padding: 40px;
+    font-weight: bold;
+    color: darkgreen ;
+}
+/*skew(45deg, 45deg) vanish the div*/
+#one{
+    transform: skew(40deg, 40deg);
+}
+#two{
+    transform: skewX(20deg) skewY(-20deg) skewX(-20deg) skewY(20deg);
+}
+/*It vanish the #three div*/
+#three{
+    transform: rotateX(90deg);
+}
+#four{
+    transform: rotate(50deg)
+}
+#five{
+    transform: rotateZ(50deg);
+}
+#six{
+    height: 200px;
+    width: 200px;
+}
+#eight{
+    transform: scale(2,2);
+}
+#ten{
+    transform: translate(50px, 20px);
+}
+#twelve{
+    transform: translateX(100px) rotate(45deg);
+}
+#fourteen{
+    transform: rotate(45deg) translateX(100px);
+}

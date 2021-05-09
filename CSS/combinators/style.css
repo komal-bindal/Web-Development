@@ -1,0 +1,29 @@
+/* 
+Adjacent sibling combinator: The + combinator selects adjacent siblings.
+This means that the second element directly follows the first, and both share the same parent.
+*/
+h1+p{
+    font-weight: bold;
+}
+
+/*
+General sibling combinator:The ~ combinator selects siblings. This means that the second 
+element follows the first (though not necessarily immediately), and both share the same parent.
+*/
+h1~p{
+    color: red;
+}
+
+/*
+Child selector: The > combinator selects nodes that are direct children of the first element.
+*/
+section > p{
+    background-color: yellow;
+}
+
+/*
+Descendant selector:The   (space) combinator selects nodes that are descendants of the first element.
+*/
+section p{
+    font-family: cursive;
+}

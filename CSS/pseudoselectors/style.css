@@ -1,0 +1,20 @@
+.box{
+    font-size: 50 pt;
+    height: 50px;
+    width: 50px;
+    background-color: slategray;
+    color: white;
+}
+.box:hover{
+    background-color: teal;
+    color: black;
+}
+.box:active{
+    height: 100px;
+    width: 100px;
+    font-size: 50pt;
+}
+input:focus{
+    width:40px;
+    height:80px;
+}
