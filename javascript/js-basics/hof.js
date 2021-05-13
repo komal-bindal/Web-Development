@@ -20,5 +20,4 @@ console.log(g1('Komal'))
 console.log(g1('Dev'))
 console.log(g2('Komal'))
 console.log(g2('Dev'))
-
  
