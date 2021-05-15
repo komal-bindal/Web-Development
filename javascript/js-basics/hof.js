@@ -20,4 +20,18 @@ console.log(g1('Komal'))
 console.log(g1('Dev'))
 console.log(g2('Komal'))
 console.log(g2('Dev'))
+
+//variables
+// a =10 glabal scope
+// let a = 10 block scope
+//var a = 10 function scope 
+a=1000
+console.log(a)//1000
+function fun() {
+    let a =10;
+    console.log(a);//10
+    a =100
+    console.log(a)//100
+}
+console.log(a)//1000
  
